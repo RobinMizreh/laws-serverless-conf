@@ -1,0 +1,88 @@
+body {
+  margin:auto;
+  background-color: #F6F6F6;
+  color: #000;
+}
+
+.jumbotron {
+  background-color: #01a2e1;
+  color:#FFF;
+  margin:0;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.input-group {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#logos{
+  padding: 24px 0;
+  background-color: #FFF;
+}
+
+#logos img{
+  margin: 0 10px;
+}
+
+#menu{
+  padding: 0;
+}
+
+.nav-pills{
+  display:inline-block;
+  margin: 0 auto;
+}
+.nav-pills>li+li{
+  margin: 0;
+}
+
+.nav-pills>li>a {
+  color: #000;
+  background-color: #FFF;
+  font-weight: bold;
+  border-radius:0;
+}
+
+.nav-pills>li>a:hover {
+  background-color: #01a2e1;
+  color: #FFF;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-color: #01a2e1;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.nav-pills>li.disabled>a {
+  color: none;
+  background-color: #F6F6F6;
+  font-weight: normal;
+}
+
+.btn-primary {
+  background-color: #01a2e1;
+  border-color: #01a2e1;
+  color:  #FFF;
+  border-radius: 0px;
+}
+.btn-primary:focus{
+  background-color: #01a2e1;
+  border-color: #fff;
+  color:  #FFF;
+  border-radius: 0px;  
+}
+.btn-primary:hover, .btn-primary:active,.btn-primary:active:hover, .btn-primary:active:focus{
+  background-color: #FFF;
+  border-color: #01a2e1;
+  color:  #01a2e1;
+  border-radius:0;
+}
+
+table img {
+	max-width:70px;
+}

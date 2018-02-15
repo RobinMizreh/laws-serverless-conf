@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Stmt1500384978000",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:getItem",
+                "dynamodb:PutItem"
+            ],
+            "Resource": [
+                "arn:aws:dynamodb:eu-west-1:00000000000:table/Labyrinth"
+            ]
+        }
+    ]
+}
